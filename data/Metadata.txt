@@ -1,0 +1,48 @@
+Field name,Field meaning
+,
+Month end balances ,
+masked_id,Customer Identifier
+asof_yyyymm,Date (year and month)
+age,customer age
+tenure_altered,customer tenure with WF
+checking_acct_ct,number of checking accounts with WF
+savings_acct_ct,number of savings accounts with WF
+mortgage_flag,customer has mortgage with WF
+heloc_flag,customer has HELOC with WF
+personal_loan_flag,customer has personal loan with WF
+cc_flag,customer has a credit card with WF
+prot_acct_flag,customer has a property or auto insurance with WF
+check_bal_altered,month end balance in checking accounts
+sav_bal_altered,month end balance in saving accounts
+mortgage_bal_altered,month end balance remaining on mortgage
+heloc_bal_altered,month end balance outstanding in HELOC
+personal_loan_bal_altered,month end balance outstanding in personal loan
+atm_withdrawls_cnt,number of ATM withdrawals over the month
+atm_deposits_cnt,number of ATM deposits over the month
+branch_visit_cnt,number of visits to a branch over the month
+phone_banker_cnt,number of phone calls into WF over the month
+mobile_bank_cnt,number of mobile bank transactions over the month
+online_bank_cnt,number of online bank transactions over the month
+direct_mail_cnt,number of pieces of direct mail  sent from WF  to the customer over the month
+direct_email_cnt,number of pieces of email  sent from WF to the customer  over the month
+direct_phone_cnt,number of times the customer called WF over the month
+,
+Daily interactions with WF,
+masked_id,Customer Identifier
+Date,Date (month|day|year)
+Des1,General category of interaction
+Des2,More detailed category of interaction
+Des3,Most detailed description of interaction
+,
+Daily use of WF credit card ,
+masked_id,Customer Identifier
+Date,Date (month|day|year)
+Des1,General category of credit card purchase
+Des2,More detailed category of credit card purchase
+Des3,Most detailed description of credit card purchase
+Payment,Dollar amount of purchase
+,
+Daily WellsFargo.com traffic,
+masked_id,Customer Identifier
+Date,Date (month|day|year)
+wf_page,wellsfargo.com URL
